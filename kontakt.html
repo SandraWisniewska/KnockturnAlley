@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+    <ul>
+        <li><a href="knockturn.html">Knockturn Alley</a></li>
+        <li><a href="rodowod.html">Rodowód</a></li>
+        <li><a href="keytolife.html">Key To Life</a></li>
+        <li><a href="balios.html">Balios</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+    </ul>
+
+    <div class="content">
+        <h1>Kontakt</h1>
+        <p>
+            Knockturn Alley będzie rozpoczynać swoją karierę wyścigową na warszawskim Torze Służewiec w sezonie na rok 2022, a swój debiutancki wyścig powinna pobiec już w 2023 roku.</p>
+        <p>
+            Jeśli chcesz otrzymywać bieżące informacje dotyczące rozwoju jej kariery, planów na przyszłość, oraz informacji o wyścigach do których zostanie zapisana, aby brać w nich udział - zapisz się już teraz do newslettera poniżej.
+        </p>
+        <br>
+
+
+        <form action="mailto:sandra.wisniewska@hotmail.com" method="get" enctype="text/plain">
+            <div>
+                <label for="imie">Imię:
+                    <input type="text" name="imie" id="imie" />
+                </label>
+            </div>
+            <br>
+            <div>
+                <label for="mail">Mail:
+                    <input type="text" name="mail" id="mail" />
+                </label>
+            </div>
+            <br>
+            <div>
+                <input type="checkbox" id="allInfo" name="allInfo">
+                <label for="allInfo"> Chcę otrzymywać wszystkie informacje o Knockturn Alley</label><br>
+                <input type="checkbox" id="raceInfo" name="raceInfo">
+                <label for="raceInfo"> Chcę otrzymywać wyłącznie informacje o wyścigach do których zostanie zapisana Knockturn Alley</label><br>
+                <br>
+                <label>Wiadomość:</label>
+                <br />
+                <textarea name="comment" rows="15" cols="80" placeholder="Jeśli chcesz się skontaktować, zostaw wiadomość."></textarea>
+            </div>
+            <div>
+
+                <input type="submit" name="submit" value="Wyślij" />
+                <input type="reset" name="reset" value="Wyczyść formularz" />
+            </div>
+        </form>
+
+    </div>
+
+    <footer>
+        Copyright © 2022 Sandra Wiśniewska
+    </footer>
+
+</body>
